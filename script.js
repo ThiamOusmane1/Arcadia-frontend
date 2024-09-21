@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateConsultationCounter(animalId) {
 
         console.log('Animal ID:', animalId);
-        fetch(' https://arcadia-app-backe-d-ik6c.vercel.app/api/update-counter', {
+        fetch(' https://arcadia-app-backe-d-ik6c.vercel.app/api/update-counter/animals', {
             method: 'POST',
             mode: 'cors',  // Ajout de CORS
             headers: {
